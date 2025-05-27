@@ -80,6 +80,25 @@ div.campo > label {
     display: none;
 }
 
+div.campo > span {
+    color: #EAEAEA;
+    /*background-color: red;*/
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #EAEAEA;
+    font-size: 1em;
+    width: 91%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    transform: translateY(-10px);
+    
+}
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;
